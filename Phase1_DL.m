@@ -140,14 +140,14 @@ figure(2)
 plot(g_time_vec, gNa, 'b', g_time_vec, gK, '-r', g_time_vec, gL, 'g')
 title('Conductances of each channels vs. Time Plot')
 xlabel('Time (ms)')
-ylabel('g (ms/cm^2)')
+ylabel('g (mS/cm^2)')
 legend('gNa','gK','gL')
 
 figure(3)
 plot(t_vec, Iinj)
 title('Injected Current vs. Time plot')
 xlabel('Time (ms)')
-ylabel('Current (uA)')
+ylabel('Current (uA/cm^2)')
 legend('Injected current')
 
 
